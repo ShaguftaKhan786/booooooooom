@@ -1,0 +1,344 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: white;
+}
+.navbar-toggler{
+    background-color: rgb(235, 232, 232);
+}
+.navbar-toggler1{
+    width:46px ;
+    border: none;
+    border-radius: 5px;
+}
+.cart ul li:nth-child(2){
+    font-size: 10px !important;
+}
+.heading{
+    height: 600px;
+background-image: url(../shagufta_mac/module-10.jpg);    
+background-size: cover;
+}
+.navbar-brand{
+    font-size: 22px;
+color: black;
+font-weight: 500;
+}
+
+
+.nav-link{
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    }
+    .dropdown-item{
+        font-size: 12px;
+    }
+    .cart ul li{
+        font-size: 30px;
+        list-style: none;
+        color: black;
+         }
+    .canvas img{
+        margin-top: 50px;
+    }
+    .canvas p{
+        color:#788487;
+        font-size: 13px;
+    }
+    .social-icons li {
+        list-style: none;
+        padding-left: 13px;
+             
+    }
+    .social-icons li i{
+        color: #fff;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .social-icons li:hover i{
+        color: #788487;
+    }
+.container{
+    position: relative;
+    z-index: 1;
+}
+.overlay121{
+    background: #333;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    left: 0;
+}
+.inner_1{
+    margin-top: 250px;
+}
+    .inner_1 h1{
+        margin-top: 100px;
+        font-size: 70px;
+        font-weight: 600;
+        letter-spacing: 1;
+        line-height: 1.3;
+        color: #fff;
+    }
+
+    .inner_1 p{
+        font-size: 18px;
+        /* font-weight: 600; */
+        letter-spacing: 1;
+        color: #fff;
+    }
+    @media screen and (min-width:320px) and (max-width:480px) {
+        .heading img{
+            /* width: 100px; */
+            background-size: cover !important;
+        }  
+        .inner_1 h1{
+        font-size: 30px;
+        
+        }      
+    }
+    .main{
+        /* background-color: #f0f0f0a3; */
+        border-bottom: 1px solid #f0f0f0;
+    }
+    .inner_2 h1{
+        font-weight: 500;
+        line-height: 2;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        color: #222;
+        margin-top: 80px;
+    }
+    .inner_2 p{
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1;
+        color: #788487;
+    }
+    .box{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+
+     .icon{
+        font-size: 40px;
+        color: #007bff;
+        line-height: 2;
+        transition: all.3s;
+    }
+.blogs_img{
+    margin-top: 50px;
+}
+.blogs_line{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.blogs_line h4{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.blogs_line h4:hover{
+color: #007bff;
+}
+.post-meta li{
+    list-style: none;
+    color: #788487;
+}
+.post-meta li a{
+    text-decoration: none;
+    color: #788487;
+}
+.blogs_line p{
+    margin-left: 30px;
+    color: #788487;
+}
+.icon-box-link a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 30px;
+
+}
+.icon-box-link a:hover{
+    color: #505cfd;
+
+}
+/* .blogs_img{
+    width: 500px !important;
+} */
+.blogs_img img{
+    transition: all .3s;
+    width: 100%;
+}
+.blogs_img:hover img{
+    transform: translateY(-10px);
+}
+.me-2{
+    margin-top: 100px;
+    font-size: 13px;
+    font-family: 'bootstrap-icons';
+
+    margin-right: -43px !important;
+}
+.btn-outline-success {
+    color: #788487;
+    border-color: #788487;
+    border: none;
+    margin-top: 100px;
+}
+.widget-title h6{
+    margin-top: 100px;
+}
+ .li_icon li{
+    list-style: none;
+}
+.li_icon li a{
+    text-decoration: none;
+    color: #788487;
+    font-family: 'bootstrap-icons';
+}
+.float-right{
+    float: right !important;
+}
+.clearfix a{
+    color: #788487;
+    text-decoration: none;
+        font-family: 'bootstrap-icons';
+
+}
+.clearfix:hover a{
+color: #007bff;
+}
+.clearfix span{
+    color: #788487;
+    font-family: 'bootstrap-icons';
+    font-size: 13px;
+
+}
+.widget-title h6{
+    font-family: 'bootstrap-icons';
+letter-spacing: 1.2px;
+}
+.tag-cloud ul li{
+    display: inline-block;
+    height: 25px;
+    width: 100px;
+    background-color: #f4f4f4;
+    margin: 5px;
+    font-family: 'bootstrap-icons';
+text-transform: uppercase;
+font-size: 10px;
+padding: 5px;
+text-align: center;
+
+    
+}
+.tag-cloud li a{
+    color: #222;
+}
+.tag-cloud ul li:hover {
+background-color: #505cfd;
+color: #fff;
+}
+.tag-cloud ul li:hover a {
+    color: #fff;
+    }
+   
+.tag-cloud li a{
+    text-decoration: none;
+
+}
+.pagination li {
+    margin: 8px;
+}
+
+.page-item .active{
+    background-color: #505cfd;
+    color: #fff;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    .blogs_1{
+        display: block !important;
+    }
+    .blogs_img img{
+        width: 300px !important;
+    }
+    .blogs_img{
+        width: 300px !important;
+    }
+
+
+
+}
+
+/* ..........CLOSED........... */
+
+
+.footer{
+    background-color: #222;
+}
+.foot{
+    margin-top: 50px;
+}
+.foot h6{
+    color: #fff;
+    font-size: 13px;
+}
+.foot p{
+    color: #788487;
+}
+.foot .spn {
+    color: #788487;
+}
+.foot li a{
+    list-style: none;
+    text-decoration: none;
+    color: #cecece;   
+}
+.foot li:hover a{
+    color: #fff;
+}
+hr{
+    background-color: #788487;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

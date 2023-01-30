@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: white;
+}
+.navbar-toggler{
+    background-color: rgb(235, 232, 232);
+}
+.navbar-toggler1{
+    width:46px ;
+    border: none;
+    border-radius: 5px;
+}
+.cart ul li:nth-child(2){
+    font-size: 10px !important;
+}
+.heading{
+    height: 700px;
+background-image: url(../shagufta_mac/module-25.jpg);    
+}
+.navbar-brand{
+    font-size: 22px;
+color: black;
+font-weight: 500;
+}
+
+.nav-link{
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    }
+    .dropdown-item{
+        font-size: 12px;
+    }
+    .cart ul li{
+        font-size: 30px;
+        list-style: none;
+        color: black;
+         }
+    .canvas img{
+        margin-top: 50px;
+    }
+    .canvas p{
+        color:#788487;
+        font-size: 13px;
+    }
+    .social-icons li {
+        list-style: none;
+        padding-left: 13px;
+             
+    }
+    .social-icons li i{
+        color: #fff;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .social-icons li:hover i{
+        color: #788487;
+    }
+.container{
+    position: relative;
+    z-index: 1;
+}
+.overlay121{
+    background: #333;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    left: 0;
+}
+    .inner_1 h1{
+        margin-top: 200px;
+        font-size: 70px;
+        font-weight: 600;
+        letter-spacing: 1.2;
+        line-height: 1.3;
+        color: #fff;
+    }
+
+    .inner_1 p{
+        font-size: 18px;
+        /* font-weight: 600; */
+        letter-spacing: 1;
+        color: #fff;
+    }
+
+    
+    @media screen and (min-width:320px) and (max-width:480px) {
+        .heading {
+            height: 500px;
+        }
+      
+        .heading img{
+            width: 100%;
+            height: 500px;
+        }  
+        .overlay121{
+            height: 500px;
+
+        }
+        .inner_1 h1{
+            font-size: 40px;
+
+        }      
+    }
+ /* ..........heading closed......... */
+
+.ctivate11{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.move-image{
+    height: 100%;
+    transition: all 0.3s
+}
+.move-text{
+    height: 0%;
+    position: absolute;
+    /* width: 100%; */
+    /* text-align: center; */
+    transition: height 0.3s;
+    bottom: 0;
+}
+.ctivate11:hover .move-image{
+    transform: translateY(-100px);
+}
+.ctivate11:hover .move-text{
+    height: 20%;
+}
+.move-text h5{
+    font-size: 15px;
+    color: black;
+        text-decoration: none;
+}
+.move-text p{
+color: #788487;
+font-family: "Playfair Display";
+    font-style: italic;
+}
+
+/* ......mode closed..... */
+
+
+.footer{
+    background-color: #222;
+}
+.foot{
+    margin-top: 50px;
+}
+.foot h6{
+    color: #fff;
+    font-size: 13px;
+}
+.foot p{
+    color: #788487;
+}
+.foot .spn {
+    color: #788487;
+}
+.foot li a{
+    list-style: none;
+    text-decoration: none;
+    color: #cecece;   
+}
+.foot li:hover a{
+    color: #fff;
+}
+hr{
+    background-color: #788487;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

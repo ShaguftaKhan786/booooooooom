@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.activate11{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.move-image{
+    height: 100%;
+    transition: all 0.3s
+}
+.move-text{
+    height: 0%;
+    position: absolute;
+    /* width: 100%; */
+    /* text-align: center; */
+    transition: height 0.3s;
+    bottom: 0;
+}
+.activate11:hover .move-image{
+    transform: translateY(-100px);
+}
+.activate11:hover .move-text{
+    height: 20%;
+}
+.move-text h5{
+    font-size: 15px;
+    color: black;
+        text-decoration: none;
+}
+.move-text p{
+color: #788487;
+font-family: "Playfair Display";
+    font-style: italic;
+}

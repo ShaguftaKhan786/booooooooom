@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: white;
+}
+.navbar-toggler{
+    background-color: rgb(235, 232, 232);
+}
+.navbar-toggler1{
+    width:46px ;
+    border: none;
+    border-radius: 5px;
+}
+.cart ul li:nth-child(2){
+    font-size: 10px !important;
+}
+.heading{
+    height: 700px;
+background-image: url(../shagufta_mac/module-9.jpg);    
+}
+.navbar-brand{
+    font-size: 22px;
+color: black;
+font-weight: 500;
+}
+
+.nav-link{
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    }
+    .dropdown-item{
+        font-size: 12px;
+    }
+    .cart ul li{
+        font-size: 30px;
+        list-style: none;
+        color: black;
+         }
+    .canvas img{
+        margin-top: 50px;
+    }
+    .canvas p{
+        color:#788487;
+        font-size: 13px;
+    }
+    .social-icons li {
+        list-style: none;
+        padding-left: 13px;
+             
+    }
+    .social-icons li i{
+        color: #fff;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .social-icons li:hover i{
+        color: #788487;
+    }
+
+.taskbar{
+    padding-top: 70px;
+    padding-bottom: 45px;
+background-color: #f8f8f8;
+}
+.breadcrumb {
+    justify-content: flex-end;
+    font-size: .8125rem;
+    padding: 0.625rem 0;
+    margin-bottom: 0;
+}
+.breadcrumb li a{
+    color: #788487;
+    text-decoration: none;
+}
+.breadcrumb li:hover a{
+    color: #0d6efd;
+}
+
+.title h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #222;
+}
+
+.form_1 li{
+    list-style: none;
+}
+.form_1 h4{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'bootstrap-icons';
+}
+.cart-table {
+    border: 1px solid #f0f0f0;
+    padding: 60px;
+    color: #788487;
+}
+.cart-table td{
+    padding: 20px;
+    color: #788487;
+    font-family: 'bootstrap-icons';
+
+}
+.text-right{
+    padding-left: 20px;
+}
+
+
+.footer{
+    background-color: #222;
+}
+.foot{
+    margin-top: 50px;
+}
+.foot h6{
+    color: #fff;
+    font-size: 13px;
+}
+.foot p{
+    color: #788487;
+}
+.foot .spn {
+    color: #788487;
+}
+.foot li a{
+    list-style: none;
+    text-decoration: none;
+    color: #cecece;   
+}
+.foot li:hover a{
+    color: #fff;
+}
+hr{
+    background-color: #788487;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
