@@ -22,7 +22,7 @@ body{
 }
 .heading{
     height: 600px;
-background-image: url(../shagufta_mac/module-10.jpg);    
+background-image: url("module-10.jpg");    
 background-size: cover;
 }
 .navbar-brand{
