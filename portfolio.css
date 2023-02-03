@@ -22,7 +22,7 @@ body{
 }
 .heading{
     height: 700px;
-background-image: url(../shagufta_mac/module-25.jpg);    
+background-image: url("module-25.jpg");    
 }
 .navbar-brand{
     font-size: 22px;
