@@ -22,7 +22,7 @@ body{
 }
 .heading{
     height: 700px;
-background-image: url(../shagufta_mac/module-3.jpg);    
+background-image: url("module-3.jpg");    
 }
 .navbar-brand{
     font-size: 22px;
@@ -178,7 +178,7 @@ font-weight: 500;
 .revolution{
     margin-top: 50px;
     height: 300px;
-    background-image: url(../shagufta_mac/module-1.jpg);
+    background-image: url("module-1.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 90%;
@@ -240,7 +240,7 @@ color: #788487;
 
 
 .coro{
-    background-image: url(../shagufta_mac/module-4.jpg);
+    background-image: url("module-4.jpg");
     padding: 60px 0px;
     
 
