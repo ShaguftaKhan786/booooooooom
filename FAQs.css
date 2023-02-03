@@ -22,7 +22,7 @@ body{
 }
 .heading{
     height: 700px;
-background-image: url(../shagufta_mac/module-9.jpg);    
+background-image: url("module-9.jpg");    
 }
 .navbar-brand{
     font-size: 22px;
@@ -120,14 +120,14 @@ font-weight: 500;
     height: 1.25rem;
     margin-left: auto;
     content: "";
-    background-image: url(../shagufta_mac/download.png);
+    background-image: url("download.png");
     background-repeat: no-repeat;
     background-size: 1.25rem;
     transition: transform .2s ease-in-out;
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url(../shagufta_mac/download\ \(1\).png);
+    background-image: url("download\ \(1\).png");
     transform: rotate(-180deg);
 }
 .me-2{
